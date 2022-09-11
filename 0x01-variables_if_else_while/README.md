@@ -1,1 +1,1 @@
-a program that prints all the numbers of base 16 in lowercase, followed by a new line.
+This program will assign a random number to the variable n each time it is execte.
