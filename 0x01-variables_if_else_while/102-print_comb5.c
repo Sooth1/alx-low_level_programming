@@ -9,13 +9,13 @@ int main(void)
 {
 	int c, i, k, j;
 
-	for (c = 47; c <= 58; c++)
+	for (c = 48; c <= 57; c++)
 	{
-		for (i = 47; i <= 58; i++)
+		for (i = 48; i <= 57; i++)
 		{
-			for (k = 47; k <= 58; k++)
+			for (k = 48; k <= 57; k++)
 			{
-				for (j = 47; j <= 58; j++)
+				for (j = 48; j <= 57; j++)
 				{
 					if (((k + j) > (c + i) && k >= c) || c < k)
 					{
