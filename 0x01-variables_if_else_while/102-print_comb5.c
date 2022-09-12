@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-	int c, l, k, j;
+	int c, i, k, j;
 
 	for (c = 47; c <= 58; c++)
 	{
-		for (l = 47; l <= 58; l++)
+		for (i = 47; i <= 58; i++)
 		{
 			for (k = 47; k <= 58; k++)
 			{
@@ -20,8 +20,8 @@ int main(void)
 					if (((k + j) > (c + i) && k >= c) || c < k)
 					{
 						putchar(c);
-						putchar(l);
-						putchar('');
+						putchar(i);
+						putchar(' ');
 						putchar(k);
 						putchar(j);
 	if (c + i + k + j == 227 && c == 57)
@@ -30,7 +30,7 @@ int main(void)
 	else
 						{
 							putchar(',');
-							putchar('');
+							putchar(' ');
 						}
 					}
 				}
