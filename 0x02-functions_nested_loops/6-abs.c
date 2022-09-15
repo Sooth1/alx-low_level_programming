@@ -2,7 +2,7 @@
 
 /**
  * _abs - Print a positive value
- * @c: Character is checked
+ * @n: Number is checked
  *
  * Return: positive value (success)
  */
